@@ -4,6 +4,7 @@ const Book = function (book) {
  this.description = book.description;
  this.images = book.images;
 };
+
 //Mengambil semua data buku
 Book.getAll = result => {
  sql.query("SELECT * FROM books", (err, res) => {
