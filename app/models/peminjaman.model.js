@@ -92,4 +92,4 @@ Peminjaman.removeAll = result => {
     });
 };
 
-module.exports = Book;
+module.exports = Peminjaman;
